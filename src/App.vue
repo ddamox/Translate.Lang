@@ -10,7 +10,7 @@
      </div>
      <translateForm v-on:formSubmit = "translateText"></translateForm>
      <translateOutput v-text="translatedText"></translateOutput>
-     <div class="footer"> Developed by Damilola Shofoluwe &nbsp; &nbsp;
+     <div class="footer"> <button><a href="http://"> The Documentation </a></button> Developed by Damilola Shofoluwe &nbsp; &nbsp;
        <img src="./assets/madebydammy1.png" alt="" srcset=""> &nbsp; <fa prefix="fab" icon="faTwitter"/>
 
      </div>
@@ -253,7 +253,19 @@ img{
 
 }
 
-fa{
+button{
+  margin-right: 200px;
+  padding: 10px;
+}
+button a{
+  text-decoration: none;
   color: #DAA520;
+  padding: 25px 20px;
+}
+
+button:hover, a:hover{
+  background: #000000;
+  border: 1px solid #000000;
+  text-decoration: underline;
 }
 </style>
