@@ -10,8 +10,8 @@
      </div>
      <translateForm v-on:formSubmit = "translateText"></translateForm>
      <translateOutput v-text="translatedText"></translateOutput>
-     <div class="footer"> <button><a href="http://"> The Documentation </a></button> Developed by Damilola Shofoluwe &nbsp; &nbsp;
-       <img src="./assets/madebydammy1.png" alt="" srcset=""> &nbsp; <fa prefix="fab" icon="faTwitter"/>
+     <div class="footer"> <button><a href="http://"> The Documentation </a></button> <p>Developed by Damilola Shofoluwe &nbsp; &nbsp;
+      </p> <img src="./assets/madebydammy1.png" alt="" srcset=""> &nbsp; <fa prefix="fab" icon="faTwitter"/>
 
      </div>
      <svg viewBox="0 0 3387 1270">
@@ -267,5 +267,55 @@ button:hover, a:hover{
   background: #000000;
   border: 1px solid #000000;
   text-decoration: underline;
+}
+@media  (max-width: 600px){
+
+  #app {
+
+    width: 100vw;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #app h1{
+
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .css-typing{
+    width: 100vw;
+  }
+  .css-typing p{
+    font-size: 11px;
+  }
+  .footer{
+    top: 65%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+  }
+
+  button{
+    align-self: center;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 50px;
+    width: 50%;
+    font-size: 10px;
+    padding: 10px;
+  }
+
+  button a {
+    padding: 10px 10px;
+  }
+
+  .footer p{
+    margin-bottom: 40px;
+  }
+
 }
 </style>

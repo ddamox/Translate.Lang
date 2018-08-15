@@ -20,7 +20,9 @@ export default {
 }
 </script>
 
+
 <style>
+
 #translateOutput{
     text-align: center;
     color: rgb(0, 0, 0);
@@ -38,6 +40,17 @@ export default {
 }
 #translateOutput h3{
     
+}
+
+@media  (max-width:600px){
+
+  #translateOutput {
+
+    top: 50%;
+    background: none;
+    color: #daa520;
+
+  }
 }
 
 </style>

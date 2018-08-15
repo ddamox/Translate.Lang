@@ -113,4 +113,38 @@ input[type = submit]:hover{
     background: #6d4e02;
     
 }
+@media (max-width: 600px){
+
+    #translateForm {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        
+    }
+
+    form{
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        left: 6.2%;
+        top: 40vh;
+    }
+    form input[type= text]{
+        height: 35px;
+        width: 30%;
+        font-size: 10px;
+    }
+    select{
+        font-size: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    option{
+        padding-right: 15px;
+    }
+    input[type = submit]{
+        font-size: 10px;
+    }
+}
 </style>
